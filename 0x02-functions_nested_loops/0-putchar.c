@@ -1,12 +1,3 @@
-#include "main.h"
-/*
- * Ohaechesi Christopher Chikamso
- * C-functions, nested loops
- * _Putchar
- * Write a program that prints _putchar, followed by new line.
- *
- */
-
 #include <stdio.h>
 
 /**
