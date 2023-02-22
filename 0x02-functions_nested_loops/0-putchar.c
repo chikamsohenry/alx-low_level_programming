@@ -1,3 +1,4 @@
+#include "main.h"
 /*
  * Ohaechesi Christopher Chikamso
  * C-functions, nested loops
