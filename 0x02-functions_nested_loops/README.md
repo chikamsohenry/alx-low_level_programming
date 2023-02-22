@@ -1,2 +1,1 @@
-0. _putchar
-1-alphabet.c
+0-putchar.c
