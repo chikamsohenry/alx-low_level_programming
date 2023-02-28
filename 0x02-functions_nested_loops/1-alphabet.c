@@ -16,6 +16,3 @@ void print_alphabet(void)
 		putchar(letter);
 	putchar('\n');
 }
-void main(void)
-	{
-	}
