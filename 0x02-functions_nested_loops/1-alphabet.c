@@ -1,19 +1,17 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include<time.h>
 
 /**
- * main - check for alphabets in lowercase.
- *
- * Return: Always 0 ( Success )
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char ch = 'a';
+	char sun;
 
-	while (ch <= 'z')
-
-	{
-		printf("%c", ch);
-		ch++;
-	}
+	for (sun = 'a'; sun <= 'z'; sun++)
+		putchar(sun);
+	putchar('\n');
 }
