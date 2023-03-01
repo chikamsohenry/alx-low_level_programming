@@ -1,16 +1,19 @@
 #include "main.h"
 
- /**
-  * main - check the code for Alx school students.
-  *Description: print the alphabet in lowercase followed by a newline.
-  * Return: Always 0.
-  */
+/**
+ * main - check for alphabets in lowercase.
+ *
+ * Return: Always 0 ( Success )
+ */
+
 int main(void)
 {
-	char letter;
+	char ch = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (ch <= 'z')
 
-		putchar(letter);
-	putchar('\n');
+	{
+		printf("%c", ch);
+		ch++;
+	}
 }
