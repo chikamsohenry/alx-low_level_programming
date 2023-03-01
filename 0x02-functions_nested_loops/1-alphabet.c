@@ -1,13 +1,11 @@
 #include "main.h"
 
-/**
- * main - Entry point
- * Description: Print the alphabets in lowercase followed by as ner line.
- *
- * Return: Always 0 (Success)
- */
-
-void print_alphabet(void)
+ /**
+  * main - check the code for Alx school students.
+  *Description: print the alphabet in lowercase followed by a newline.
+  * Return: Always 0.
+  */
+int main(void)
 {
 	char letter;
 
