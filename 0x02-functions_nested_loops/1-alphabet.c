@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include<time.h>
+#include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * print_alphabet - make the alphabet
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char sun;
+	char c;
 
-	for (sun = 'a'; sun <= 'z'; sun++)
-		putchar(sun);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 }
